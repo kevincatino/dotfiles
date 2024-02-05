@@ -1,0 +1,29 @@
+scrolling:
+  # how many lines of scrollback to keep,
+  # '0' will disable scrolling.
+  history: 10000
+
+    # number of lines the viewport will move for every line
+    # scrolled when scrollback is enabled (history > 0).
+  multiplier: 3
+
+    # faux scrolling
+    #
+    # the `faux_multiplier` setting controls the number
+    # of lines the terminal should scroll when the alternate
+    # screen buffer is active. this is used to allow mouse
+    # scrolling for applications like `man`.
+    #
+    # to disable this completely, set `faux_multiplier` to 0.
+  faux_multiplier: 3
+
+    # automatically scroll to the bottom when new text is written
+    # to the terminal.
+  auto_scroll: false
+
+  shell:
+    program: /bin/bash
+    args:
+      - --login
+
+
