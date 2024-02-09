@@ -27,3 +27,5 @@ login-to-sv() {
 }
 alias python='python3'
 export PATH="/opt/homebrew/opt/tomcat@8/bin:$PATH"
+
+source ~/.bashrc
