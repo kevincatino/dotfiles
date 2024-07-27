@@ -26,4 +26,9 @@ scrolling:
     args:
       - --login
 
-
+alt_send_esc: false
+key_bindings:
+  - { key: ",",        mods: Alt,     chars: "\x1b,"                       }
+  - { key: ".",        mods: Alt,     chars: "\x1b."                       }
+  - { key: "t",        mods: Alt,     chars: "\x1bt"                       }
+  - { key: "s",        mods: Alt,     chars: "\x1bs"                       }
