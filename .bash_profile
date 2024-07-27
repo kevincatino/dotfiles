@@ -13,3 +13,5 @@ cd-obsidian() {
 
 alias obsidian='cd-obsidian && nvim .'
 
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
