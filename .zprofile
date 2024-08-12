@@ -1,12 +1,8 @@
-source ~/.bashrc
-. "$HOME/.cargo/env"
-
-
 cd-obsidian() {
   if [ "$WORK_MACHINE" = "true" ]; then
-    directory="/users/khcatino/Documents/notes/innovid"
+    directory="/users/${USER}/Documents/notes/innovid"
   else
-    directory="/users/khcatino/Documents/notes"
+    directory="/users/${USER}/Documents/notes"
   fi
   cd $directory
 }
