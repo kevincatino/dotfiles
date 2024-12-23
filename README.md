@@ -17,3 +17,4 @@
 1. Install tmux: `brew install tmux`
 2. Install TPM: `git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`
 3. Open Tmux by running `tmux`, and inside it install all plugins that were set in `~/.config/tmux.conf` with the command: `<Ctrl>-<Space> + I`
+> Reference: https://www.youtube.com/watch?v=DzNmUNvnB04
